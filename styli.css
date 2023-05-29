@@ -1,0 +1,57 @@
+#header{
+   background-color: bisque;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   font-family: 'Hubballi', cursive;
+}
+#NomeandTitle h1, h2{
+    margin: 0;
+}
+#NomeandTitle{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: white;
+    width: 500px;
+    margin: 0 auto;
+}
+#contatc{
+    list-style: none;
+
+}
+#contatc i{
+    margin: 5px;
+    color: rgb(24, 122, 85);
+    width: 30;
+}
+#sendiBar, #contant{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+#image{
+    margin-top: 20px;
+    border: 1px dashed rgb(43, 3, 70);
+    border-radius: 50%;
+}
+
+#container{
+   
+    display: grid;
+    grid-template-columns:30% auto;
+    grid-column-gap: 30px;
+}
+.card h3{
+    font-family: 'Huballi', cursive;
+}
+.card h4{
+    font-family: 'Montserrat';
+}
+.card{
+    border-radius: 5px;
+    border: 1px solid rgb(67, 15, 211);
+   
+    font-family: 'Montserrat';
+}
+.card{
+    text-align: center;
+}
